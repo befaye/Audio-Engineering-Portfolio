@@ -53,6 +53,7 @@
       font-weight: 700;
       letter-spacing: -0.03em;
       line-height: 1.12;
+      text-align: center;
       background: linear-gradient(135deg, #ffffff 30%, #ff3b8c 90%);
       background-clip: text;
       -webkit-background-clip: text;
@@ -161,6 +162,11 @@
       letter-spacing: -0.3px;
       border-left: 3px solid #ff3b8c;
       padding-left: 0.75rem;
+    }
+
+    .masterpiece-container .media-card h3 {
+      font-size: 1.8rem;
+      border-left-width: 4px;
     }
 
     audio, video {
@@ -316,6 +322,9 @@
         line-height: 1.2;
         margin-bottom: 0.65rem;
       }
+      .masterpiece-container .media-card h3 {
+        font-size: 1.05rem;
+      }
       .file-hint {
         font-size: 0.72rem;
         line-height: 1.45;
@@ -343,6 +352,9 @@
       .section-title {
         font-size: 1rem;
         letter-spacing: -0.03em;
+      }
+      .masterpiece-container .media-card h3 {
+        font-size: 0.95rem;
       }
       .media-card {
         padding: 0.8rem;
@@ -377,7 +389,7 @@
   
   <!-- SECTION 0 : PROFILE -->
   <section class="profile-section">
-    <h1 class="page-title">☆ AUDIO ENGINEERING PORTFOLIO</h1>
+    <h1 class="page-title">AUDIO ENGINEERING PORTFOLIO</h1>
     <div class="profile-grid">
       <div class="profile-detail">
         <div class="name-highlight">BEA ALTARES</div>
@@ -501,7 +513,7 @@
     <h2 class="section-title"><span>▾ SECTION 03</span> — MASTERPIECE</h2>
     <div class="masterpiece-container">
       <div class="media-card" style="background: transparent; border: none; box-shadow: none; padding: 0;">
-        <h3 style="font-size: 1.8rem; border-left: 4px solid #ff3b8c;">🪷 THE SOUND OF MY SOUL</h3>
+        <h3>🪷 THE SOUND OF MY SOUL</h3>
         <audio controls preload="metadata" style="margin-top: 1rem;" onerror="this.nextElementSibling.style.display='flex'">
           <source src="./assets/audio/masterpiece.wav" type="audio/wav">
         </audio>
